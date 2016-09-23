@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2015-10-16T16:49:14Z" product-name="asyahoofinance">
+		<header/>
+		<body>
+		    <trans-unit id="plugin_label">
+                <source>AS Yahoo Finance</source>
+            </trans-unit>
+            <trans-unit id="plugin_value">
+                <source>Here you can edit the AS Yahoo Finance</source>
+            </trans-unit>
+			<trans-unit id="tx_asyahoofinance_domain_model_yahoofinance">
+				<source>Yahoo Finance</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
