@@ -51,6 +51,7 @@ $GLOBALS['TCA']['tx_asyahoofinance_domain_model_yahoofinance'] = array(
         ),
         'searchFields' => '',
         'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY).'Configuration/TCA/YahooFinance.php',
-        'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath($_EXTKEY).'Resources/Public/Icons/wizard_icon.png',
+        'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath($_EXTKEY).'Resources/Public/Icons/wizard_icon.svg',
     ),
 );
+

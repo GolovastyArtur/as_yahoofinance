@@ -6,6 +6,9 @@
 			<trans-unit id="tx_asyahoofinance_domain_model_yahoofinance">
 				<source>Yahoo Finance</source>
 			</trans-unit>
+			<trans-unit id="tt_content.as_yahoofinance.name">
+                <source>Name</source>
+            </trans-unit>
 		</body>
 	</file>
 </xliff>

@@ -17,16 +17,16 @@ $EM_CONF[$_EXTKEY] = array (
     'author' => 'Golovasty Artur - ALPEIN Software Ltd. & Co. KG',
     'author_email' => 'artur.golovasty@alpeinsoft.ch',
     'author_company' => 'ALPEIN Software Ltd. & Co. KG',
-    'state' => 'alpha',
+    'state' => 'stable',
     'uploadfolder' => false,
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.1.0',
+    'version' => '1.1.2',
     'constraints' =>
         array(
         'depends' =>
             array(
-            'typo3' => '7.6.0-7.99.99',
+            'typo3' => '6.2.0-8.99.99',
         ),
         'conflicts' =>
             array(

@@ -12,14 +12,14 @@ class asyahoofinance_itemsProcFunc
     public function getStyle($config, $item) {
         $allStyles = array(
             array(
-                $GLOBALS['LANG']->sL('LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.style.I.0'),
+                $GLOBALS['LANG']->sL('LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.style.I.0'),
                 'chart',
-                'EXT:jfmulticontent/selicon_tt_content_tx_jfmulticontent_style_0.gif',
+                'EXT:as_yahoofinance/chart.png',
             ),
             array(
-                $GLOBALS['LANG']->sL('LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.style.I.1'),
+                $GLOBALS['LANG']->sL('LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.style.I.1'),
                 'nochart',
-                'EXT:jfmulticontent/selicon_tt_content_tx_jfmulticontent_style_3.gif',
+                'EXT:as_yahoofinance/list.png',
             ),
 
 

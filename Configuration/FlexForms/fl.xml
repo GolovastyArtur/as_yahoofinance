@@ -13,7 +13,7 @@
                     <settings.style>
                         <TCEforms>
                             <onChange>reload</onChange>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.style</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.style</label>
                             <config>
                                 <type>select</type>
                                 <size>1</size>
@@ -27,7 +27,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.name</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.name</label>
                             <config>
                                 <type>input</type>
                                 <size>20</size>
@@ -40,7 +40,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.days</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.days</label>
                             <config>
                                 <type>input</type>
                                 <size>3</size>
@@ -53,7 +53,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.width</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.width</label>
                             <config>
                                 <type>input</type>
                                 <size>4</size>
@@ -65,7 +65,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.height</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.height</label>
                             <config>
                                 <type>input</type>
                                 <size>4</size>
@@ -77,29 +77,29 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.chart_theme</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.chart_theme</label>
                             <config>
                                 <type>select</type>
                                 <items type="array">
                                     <numIndex index="0" type="array">
-                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.se_custom</numIndex>
-                                        <numIndex index="1">custom</numIndex>
+                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.se_custom</numIndex>
+                                        <numIndex index="1">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.se_custom_t</numIndex>
                                     </numIndex>
                                     <numIndex index="1" type="array">
-                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.se_light</numIndex>
-                                        <numIndex index="1">light</numIndex>
+                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.se_light</numIndex>
+                                        <numIndex index="1">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.se_light_t</numIndex>
                                     </numIndex>
                                     <numIndex index="2" type="array">
-                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.se_patterns</numIndex>
-                                        <numIndex index="1">patterns</numIndex>
+                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.se_patterns</numIndex>
+                                        <numIndex index="1">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.se_patterns_t</numIndex>
                                     </numIndex>
                                     <numIndex index="3" type="array">
-                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.se_dark</numIndex>
-                                        <numIndex index="1">dark</numIndex>
+                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.se_dark</numIndex>
+                                        <numIndex index="1">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.se_dark_t</numIndex>
                                     </numIndex>
                                     <numIndex index="4" type="array">
-                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.se_chalk</numIndex>
-                                        <numIndex index="1">chalk</numIndex>
+                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.se_chalk</numIndex>
+                                        <numIndex index="1">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.se_chalk_t</numIndex>
                                     </numIndex>
                                 </items>
                                 <minitems>0</minitems>
@@ -113,7 +113,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.position_ordinate</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.position_ordinate</label>
                             <config>
                                 <type>select</type>
                                 <items type="array">
@@ -122,12 +122,12 @@
                                         <numIndex index="1"></numIndex>
                                     </numIndex>
                                     <numIndex index="1" type="array">
-                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.po_left</numIndex>
-                                        <numIndex index="1">left</numIndex>
+                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.po_left_t</numIndex>
+                                        <numIndex index="1">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.po_left_t</numIndex>
                                     </numIndex>
                                     <numIndex index="2" type="array">
-                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.po_right</numIndex>
-                                        <numIndex index="1">right</numIndex>
+                                        <numIndex index="0">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.po_right_t</numIndex>
+                                        <numIndex index="1">LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.po_right_t</numIndex>
                                     </numIndex>
                                 </items>
                                 <minitems>0</minitems>
@@ -141,7 +141,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.show_scrollbar</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.show_scrollbar</label>
                             <config>
                                 <type>check</type>
                             </config>
@@ -152,7 +152,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.font_size</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.font_size</label>
                             <config>
                                 <type>input</type>
                                 <size>2</size>
@@ -164,7 +164,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.fill_color</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.fill_color</label>
                             <config>
                                 <type>input</type>
                                 <size>6</size>
@@ -194,7 +194,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.scale_font_color</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.scale_font_color</label>
                             <config>
                                 <type>input</type>
                                 <size>6</size>
@@ -224,7 +224,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.scrollbar_selected_background</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.scrollbar_selected_background</label>
                             <config>
                                 <type>input</type>
                                 <size>6</size>
@@ -254,7 +254,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.cursor_color</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.cursor_color</label>
                             <config>
                                 <type>input</type>
                                 <size>6</size>
@@ -284,7 +284,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:chart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.show_tooltips</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.show_tooltips</label>
                             <config>
                                 <type>check</type>
                             </config>
@@ -297,7 +297,7 @@
                         <TCEforms>
                             <exclude>1</exclude>
                             <displayCond>FIELD:settings.style:=:nochart</displayCond>
-                            <label>LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang.xlf:tt_content.as_yahoofinance.names</label>
+                            <label>LLL:EXT:as_yahoofinance/Configuration/FlexForms/locallang_db.xml:tt_content.as_yahoofinance.names</label>
                             <config>
                                 <type>input</type>
                                 <size>20</size>

@@ -40,7 +40,7 @@ The following table shows the essential configurations.
 .. container:: table-row
 
    Property
-         Name
+         Stock exchange symbol (e.g. ^GDAXI)
 
    Description
          Add index name
@@ -48,7 +48,7 @@ The following table shows the essential configurations.
 .. container:: table-row
 
    Property
-         Day
+         Timespan in days
 
    Description
          Specify time interval for data displaying
@@ -66,15 +66,15 @@ The following table shows the essential configurations.
   Property
         Height
 
-   Description
-         Set height chart
+  Description
+        Set height chart
 
-.. container:: table-row
+.. container:: table-ro
 
   Property
         Chart theme
 
-   Description
+  Description
          Select a theme for displaying
 
 .. container:: table-row
@@ -82,7 +82,7 @@ The following table shows the essential configurations.
   Property
         Position Ordinate
 
-   Description
+  Description
          Align ordinate dimensions
 
 .. container:: table-row
@@ -90,7 +90,7 @@ The following table shows the essential configurations.
   Property
         Show Scrollbar
 
-   Description
+  Description
          Display scrollbar on chart
 
 .. container:: table-row
@@ -98,7 +98,7 @@ The following table shows the essential configurations.
   Property
         Font size
 
-   Description
+  Description
          Size of fonts in a chart
 
 .. container:: table-row
@@ -106,7 +106,7 @@ The following table shows the essential configurations.
   Property
         Fill color
 
-   Description
+  Description
          Chart color
 
 .. container:: table-row
@@ -114,7 +114,7 @@ The following table shows the essential configurations.
   Property
         Scale font color
 
-   Description
+  Description
          Font color for a chart scale
 
 .. container:: table-row
@@ -122,7 +122,7 @@ The following table shows the essential configurations.
   Property
         Scrollbar Selected Background
 
-   Description
+  Description
          Background color of Scrollbar
 
 .. container:: table-row
@@ -130,7 +130,7 @@ The following table shows the essential configurations.
   Property
         Cursor color
 
-   Description
+  Description
          Set cursor color
 
 .. container:: table-row
@@ -138,7 +138,15 @@ The following table shows the essential configurations.
   Property
         Show Tooltips
 
-   Description
+  Description
         Display cursor on chart
+
+.. container:: table-row
+
+  Property
+        Stock exchange symbols (separated by "," )
+
+  Description
+        Add index names
 
 .. ###### END~OF~TABLE ######
