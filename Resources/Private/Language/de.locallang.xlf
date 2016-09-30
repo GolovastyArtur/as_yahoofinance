@@ -64,11 +64,11 @@
                 <target>Muster</target>
             </trans-unit>
             <trans-unit id="tt_content.as_yahoofinance.se_dark" approved="yes">
-                <source>Dark (um einen dunklen Hintergrund)</source>
+                <source>Dark (for black background)</source>
                 <target>Dark (für einen dunklen Hintergrund)</target>
             </trans-unit>
             <trans-unit id="tt_content.as_yahoofinance.se_chalk" approved="yes">
-                <source>Chalk (um einen dunklen Hintergrund)</source>
+                <source>Sketch (for black background)</source>
                 <target>Skizze (für einen dunklen Hintergrund)</target>
             </trans-unit>
             <trans-unit id="tt_content.as_yahoofinance.position_ordinate" approved="yes">

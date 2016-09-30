@@ -19,13 +19,13 @@
                 <source>General</source>
             </trans-unit>
 			<trans-unit id="tt_content.as_yahoofinance.style">
-                <source>Style</source>
+                <source>View</source>
             </trans-unit>
             <trans-unit id="tt_content.as_yahoofinance.style.I.0">
                 <source>Chart</source>
             </trans-unit>
              <trans-unit id="tt_content.as_yahoofinance.style.I.1">
-                <source>Listview</source>
+                <source>Data table</source>
             </trans-unit>
 			<trans-unit id="tt_content.as_yahoofinance.name">
             	<source>Stock exchange symbol (e.g. ^GDAXI)</source>
@@ -52,10 +52,10 @@
                 <source>Patterns</source>
             </trans-unit>
             <trans-unit id="tt_content.as_yahoofinance.se_dark">
-                <source>Dark (um einen dunklen Hintergrund)</source>
+                <source>Dark (for black background)</source>
             </trans-unit>
             <trans-unit id="tt_content.as_yahoofinance.se_chalk">
-                <source>Chalk (um einen dunklen Hintergrund)</source>
+                <source>Sketch (for black background)</source>
             </trans-unit>
             <trans-unit id="tt_content.as_yahoofinance.position_ordinate">
                 <source>Ordinate position</source>
