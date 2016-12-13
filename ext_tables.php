@@ -26,11 +26,11 @@ if (TYPO3_MODE == "BE") {
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'AS Yahoo Finance');
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tx_asyahoofinance_domain_model_yahoofinance',
-    'EXT:asyahoofinance/Resources/Private/Language/locallang_csh_tx_asyahoofinance_domain_model_yahoofinance.xlf');
+    'EXT:as_yahoofinance/Resources/Private/Language/locallang_csh_tx_asyahoofinance_domain_model_yahoofinance.xlf');
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_asyahoofinance_domain_model_yahoofinance');
 $GLOBALS['TCA']['tx_asyahoofinance_domain_model_yahoofinance'] = array(
     'ctrl' => array(
-        'title' => 'LLL:EXT:asyahoofinance/Resources/Private/Language/locallang_db.xlf:tx_asyahoofinance_domain_model_yahoofinance',
+        'title' => 'LLL:EXT:as_yahoofinance/Resources/Private/Language/locallang_db.xlf:tx_asyahoofinance_domain_model_yahoofinance',
         'label' => 'uid',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
